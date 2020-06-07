@@ -36,7 +36,15 @@ CREATE TABLE `dane` (
 
 LOCK TABLES `dane` WRITE;
 /*!40000 ALTER TABLE `dane` DISABLE KEYS */;
-INSERT INTO `dane` VALUES (41,'Zawada','https://cs.pwr.edu.pl/zawada/kwjp/'),(42,'nje','mem'),(43,'lol','nie');
+INSERT INTO `dane` VALUES (41,'Zawada_Python','https://cs.pwr.edu.pl/zawada/kwjp/'),
+(42,'Gotfryd_Aisd','https://cs.pwr.edu.pl/gotfryd/aisd2019_20/aisd2019_20_c.html'),
+(43,'Golebiewski_Aisd','https://cs.pwr.edu.pl/golebiewski/#teaching/1920/aisd.php'),
+(44,'Krupski_Analiza','https://cs.pwr.edu.pl/krupski/dydaktyka.php'),
+(45,'Cichon_Grafy','https://cs.pwr.edu.pl/cichon/2019_20_b/Grafy.php'),
+(46,'Macyna_TP','https://cs.pwr.edu.pl/macyna/techprog.html'),
+(47,'Kuchta_Analiza','https://cs.pwr.edu.pl/kuchta/'),
+(48,'Błaśkiewicz_Wbudowane','https://cs.pwr.edu.pl/blaskiewicz/?id=embedded-2020'),
+(49,'Kobylanski_Prolog','https://cs.pwr.edu.pl/kobylanski/dydaktyka/page6/page2/index.html');
 /*!40000 ALTER TABLE `dane` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
