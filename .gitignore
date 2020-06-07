@@ -1,0 +1,12 @@
+﻿################################################################################
+# Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
+################################################################################
+
+/env
+/.vs
+/Project-Python.sln
+/Project-Python.pyproj
+/build/main
+/__pycache__
+/dist/main
+/dist/AUZS.zip
