@@ -1,0 +1,65 @@
+Nazwa projektu: "Aplikacja do ułatwiania studentom życia"
+
+Grupa: 244994, 236797, 244997, 221441
+
+Prowadzący: Plata
+
+Repozytorium projektu: https://github.com/Admaxx/Project-Python/blob/master/Python
+
+Projekt robiliśmy wspólnie, bez podziału na role, każdy dodał coś od siebie..
+
+
+# 2020.04.26 po I tygodniu
+
+Szczegółowe i długe rozmowy nt. szczegółowego funkcjonowania aplikacji.
+
+
+# 2020.05.03 po II tygodniu
+
+Aplikacja do ułatwiania życia studentom(Aużs).
+Służy ona do wyszukiwania prowadzących a następnie,
+pobiera zawartość z ich stron i zapisuje do formatu pdf.
+
+
+# 2020.05.10 po III tygodniu
+
+Jak na razie, jest tylko możliwość pobierania stron "statycznych",czyli 
+te które zostały zapisane w programie przez autorów.
+Jest to proste GUI, napisane w pythonie z pomocą biblioteki TK,
+z użyciem baz danych MySQL i oczywiście z użyciem samego języka SQL.
+
+
+# 2020.05.17 po IV tygodniu
+
+Zasugerowałem zaimplementowanie dodatkowo progress baru, czyli prostego
+wskaźnika tego, na jakim etapie jest aktualnie przetwarzana strona internetowa.
+Rozwiązanie udało się z sukcesem zaimplementować oraz przetestować.
+
+
+# 2020.05.24 po V tygodniu
+
+Głównie refactoring kodu, dodanie pobierania w threadach, zmodyfikowany został
+progress bar, zmodyfikowane również zostały niektóre napisy oraz tytuł. Okna
+aplikacji zostały zablokowane (nie można zmieniać ich rozmiaru) oraz ich rozmiar
+został dostosowany do tekstu. Dodano możliwość wpisania własnego URLa prowadzącego.
+Domyślnie aplikacja będzie tworzyć plik z rozszerzeniem ".pdf". Dodatkowo
+aplikacja została z powodzeniem przetestowana w systemie MS Windows oraz został
+wygenerowany plik binarny pod system Windows w moim repo:
+link: https://github.com/sudoc/Project-Python/releases/tag/v1.1
+
+
+# 2020.05.31 po VI tygodniu
+
+Stworzona została lista rzeczy, które warto by było jeszcze zrobić, lista została
+rozesłana do uczestników projektu. Pojawiło się wsparcie dla bazy danych MySQL
+(MariaDB), można dodawać oraz usuwać prowadzących w aplikacji. Wystawiony został
+kolejny pull request z połączonymi zmianami uczestników (nastąpiły konflikty,
+zostały z powodzeniem rozwiązane, dodatkowo repozytorium zostało posprzątane).
+Aplikacja została przetestowana, wydano kolejną wersję v1.2.
+
+
+# 7.06.2020 po VII tygodniu
+Stworzona została ostateczna wersja v1.3. Dodano wysyłanie meili z pdf-ami.
+Możliwość stworzenia listy meilingowej (np. całej grupy) i bezpośrednio z 
+aplikacji możliwość wysłania aktualnej wersji strony w PDF. Baza została 
+powiększona o kilku przykładowych prowadzących.
