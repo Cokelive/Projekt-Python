@@ -9,7 +9,7 @@ pip==20.1.1
 PyInstaller==3.6
 pywin32-ctypes==0.2.0
 requests==2.23.0
-setuptools==46.4.0
+setuptools==65.5.1
 urllib3==1.25.9
 wkhtmltopdf==0.2
 mysql==0.0.2
